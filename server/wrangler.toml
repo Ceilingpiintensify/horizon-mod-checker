@@ -1,0 +1,17 @@
+# Wanted's vote server. Fits the Cloudflare free plan.
+#   npx wrangler d1 create wanted          # prints the database_id for below
+#   npx wrangler d1 execute wanted --remote --file=schema.sql
+#   npx wrangler secret put IP_SALT        # any long random string
+#   npx wrangler deploy
+name = "wanted-votes"
+main = "worker.js"
+compatibility_date = "2026-10-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "wanted"
+database_id = "00000000-0000-0000-0000-000000000000"  # from `wrangler d1 create wanted`
+
+[vars]
+VOTES_PER_HOUR = "60"   # per IP address
+BOARD_MIN_VOTES = "3"   # a mod shows on the board from this many votes
