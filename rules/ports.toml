@@ -1,0 +1,27 @@
+# Which project in Horizon's registry ports which Java mod.
+#
+# The registry's index.json lists what is made for Horizon, but it has no field
+# that says "this is the Rust version of that Java mod". This table says it.
+# It's kept by the community: add a row with a pull request that links the
+# registry project and the Java mod's page.
+#
+#   java      the Java mod's id, as in its fabric.mod.json or mods.toml
+#   registry  the project id in Horizon's registry
+#   name      how players call it, if the id doesn't say
+#
+# A row only counts while the registry lists the project and hasn't revoked it.
+
+[[port]]
+java = "veinminer"        # example
+registry = "veinminer"    # example
+name = "Veinminer"
+
+[[port]]
+java = "waystones"        # example
+registry = "waystones"    # example
+name = "Waystones"
+
+[[port]]
+java = "appleskin"        # example
+registry = "appleskin"    # example
+name = "AppleSkin"
