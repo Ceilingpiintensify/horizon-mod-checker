@@ -1,0 +1,115 @@
+# Java mods that Horizon already does by itself. Reviewed by hand: every row
+# links the Horizon doc that backs it.
+#
+#   mods     the Java mods, as players name them
+#   ids      their mod ids (fabric.mod.json "id", mods.toml "modId")
+#   horizon  what does the job on Horizon
+#   how      engine        always on, nothing to turn on
+#            setting       built in, off by default, turned on in Horizon's settings
+#            official-mod  one of Horizon's own mods, installed from the launcher's Mods page
+#   where    where to turn it on
+#
+# Horizon's built-in extras are off by default, so a fresh game looks like vanilla.
+
+[[builtin]]
+mods = ["Sodium", "Lithium", "FerriteCore", "ModernFix", "ImmediatelyFast"]
+ids = ["sodium", "lithium", "ferritecore", "modernfix", "immediatelyfast"]
+horizon = "Horizon's engine"
+how = "engine"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/modpacks.md"
+
+[[builtin]]
+mods = ["Distant Horizons"]
+ids = ["distanthorizons"]
+horizon = "LOD Distance, up to 1024 chunks"
+how = "setting"
+where = "Options > Horizon Settings > Graphics > LOD Distance"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/mods.md"
+
+[[builtin]]
+mods = ["Xaero's Minimap", "JourneyMap"]
+ids = ["xaerominimap", "journeymap"]
+horizon = "Minimap"
+how = "official-mod"
+where = "Launcher > Mods > Minimap"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/mods.md"
+
+[[builtin]]
+mods = ["Zoomify", "OK Zoomer"]
+ids = ["zoomify", "ok_zoomer"]
+horizon = "Zoom"
+how = "official-mod"
+where = "Launcher > Mods > Zoom"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/mods.md"
+
+[[builtin]]
+mods = ["JEI", "REI", "EMI", "Just Enough Items", "Roughly Enough Items"]
+ids = ["jei", "roughlyenoughitems", "emi"]
+horizon = "Recipes: the item panel and recipe pages"
+how = "official-mod"
+where = "Launcher > Mods > Recipes"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/mods.md"
+
+[[builtin]]
+mods = ["Mouse Tweaks"]
+ids = ["mousetweaks"]
+horizon = "Mouse Tweaks-style controls"
+how = "setting"
+where = "Options > Horizon Settings > Extras > Mouse Tweaks controls"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/extras.md"
+
+[[builtin]]
+mods = ["Inventory Profiles Next", "Inventory Sorter"]
+ids = ["inventoryprofilesnext", "inventorysorter"]
+horizon = "Sorting"
+how = "setting"
+where = "Options > Horizon Settings > Extras > Sorting"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/extras.md"
+
+[[builtin]]
+mods = ["LambDynamicLights"]
+ids = ["lambdynlights"]
+horizon = "Dynamic lights"
+how = "setting"
+where = "Options > Horizon Settings > Extras > Dynamic lights"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/extras.md"
+
+[[builtin]]
+mods = ["Controlify", "MidnightControls"]
+ids = ["controlify", "midnightcontrols"]
+horizon = "Controllers"
+how = "setting"
+where = "Options > Horizon Settings > Controller"
+source = "https://github.com/horizon-rust/horizon/blob/main/README.md#what-works-today"
+
+[[builtin]]
+mods = ["AutoReconnect"]
+ids = ["autoreconnect"]
+horizon = "Auto-reconnect"
+how = "setting"
+where = "Options > Horizon Settings > Extras > Auto-reconnect"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/extras.md"
+
+[[builtin]]
+mods = ["Gamma Utils", "Fullbright"]
+ids = ["gammautils", "fullbright"]
+horizon = "Fullbright"
+how = "setting"
+where = "Options > Horizon Settings > Extras > Fullbright"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/extras.md"
+
+[[builtin]]
+mods = ["FPS Display", "FPS Counter"]
+ids = ["fpsdisplay", "fps_display", "fpscounter"]
+horizon = "FPS Counter"
+how = "official-mod"
+where = "Launcher > Mods > FPS Counter"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/mods.md"
+
+[[builtin]]
+mods = ["Keystrokes"]
+ids = ["keystrokes", "keystrokesmod"]
+horizon = "Keystrokes"
+how = "official-mod"
+where = "Launcher > Mods > Keystrokes"
+source = "https://github.com/horizon-rust/horizon/blob/main/docs/mods.md"
